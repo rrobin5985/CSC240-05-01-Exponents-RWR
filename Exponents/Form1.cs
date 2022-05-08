@@ -49,6 +49,8 @@ namespace Exponents
             xOutputLabel.Visible = true;
 
             // turn the Go button off
+            xGoButton.Enabled = false;
+            xResetButton.Enabled = true;
         }
 
         public int Square(int num)
@@ -66,8 +68,15 @@ namespace Exponents
         private void xResetButton_Click(object sender, EventArgs e)
         {
             // the input and output text should be emptied
+            xInputTextBox.Clear();
+            xOutputLabel.Text = "";
+
             // turn the output to invisible
+            xOutputLabel.Visible = false;
+
             // turn the Go button back on
+            xGoButton.Enabled = true;
+            xResetButton.Enabled = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
