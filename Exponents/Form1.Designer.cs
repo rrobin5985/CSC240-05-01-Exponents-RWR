@@ -92,6 +92,7 @@
             this.Controls.Add(this.xInputTextBox);
             this.Name = "Form1";
             this.Text = "Exponents Demo";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -8,8 +8,8 @@ using System.Text;
 using System.Windows.Forms;
 
 /**************************************
- * Name:
- * Date:
+ * Name: Reginald Robinson
+ * Date: 8 May 2022
  * Description: A program using user-created method
  *              for the math function Square and Cube
  * Assistance:
@@ -47,11 +47,13 @@ namespace Exponents
         public int Square(int num)
         {
             // we will create this code in class
+            return 1;
         }
 
         public int Cube(int num)
         {
             // we will create this code in class
+            return 1;
         }
 
         private void xResetButton_Click(object sender, EventArgs e)
@@ -61,5 +63,9 @@ namespace Exponents
             // turn the Go button back on
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
